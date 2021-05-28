@@ -6,6 +6,8 @@ import 'package:pedidos_donacoyo_cliente/pages/home.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  //shoppingCart product counter
+  static int productCounter = 0;
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {

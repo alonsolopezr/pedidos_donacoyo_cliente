@@ -12,13 +12,11 @@ class AwesomeCarousel extends StatefulWidget {
 }
 
 class _AwesomeCarouselState extends State<AwesomeCarousel> {
+  //load items to show and select by client
   List<String> data = [
-    "https://cdn.dribbble.com/users/3281732/screenshots/8159457/media/9e7bfb83b0bd704e941baa7a44282b22.jpg?compress=1&resize=600x600",
-    "https://cdn.dribbble.com/users/3281732/screenshots/7012328/media/bcd672685071ca4da27d5f3ea44ac5db.jpg?compress=1&resize=600x600",
-    "https://cdn.dribbble.com/users/3281732/screenshots/6727912/samji_illustrator.jpeg?compress=1&resize=600x600",
-    "https://cdn.dribbble.com/users/3281732/screenshots/10940512/media/b2a8ea95c550e5f09d0ca07682a3c0da.jpg?compress=1&resize=600x600",
-    "https://cdn.dribbble.com/users/3281732/screenshots/8616916/media/a7e39b15640f8883212421d134013e38.jpg?compress=1&resize=600x600",
-    "https://cdn.dribbble.com/users/3281732/screenshots/6590709/samji_illustrator.jpg?compress=1&resize=600x600",
+    "images/paquetes/etiqueta_paq_piloncillo.png",
+    "images/paquetes/etiqueta_paq_jamoncillo.png",
+    "images/paquetes/etiqueta_paq_jamoncillo_cNuez.png",
   ];
 
   int _currentPage = 0;
@@ -37,8 +35,7 @@ class _AwesomeCarouselState extends State<AwesomeCarousel> {
               image: DecorationImage(
                 // image: NetworkImage(data[_currentPage]),
 
-                image: AssetImage(
-                    "images/logos/logoEtiquetas_MasChico_105x99.png"),
+                image: AssetImage(data[_currentPage].toString()),
                 fit: BoxFit.cover,
               ),
             ),
@@ -74,8 +71,8 @@ class _AwesomeCarouselState extends State<AwesomeCarousel> {
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         // image: NetworkImage(data[index]),
-                        image: AssetImage("images/coyota.jpg"),
-                        fit: BoxFit.cover,
+                        image: AssetImage(data[_currentPage]),
+                        fit: BoxFit.fitWidth,
                       ),
                       borderRadius: BorderRadius.circular(32),
                       boxShadow: [
