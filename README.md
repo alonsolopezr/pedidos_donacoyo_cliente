@@ -1,16 +1,16 @@
-# pedidos_donacoyo_cliente
+# Pedidos "Doña Coyo" para clientes
 
-A new Flutter project.
+> Proyecto en proceso sobre el desarrollo de cliente móvil, para consumir el backEnd de 'PedidosDaCoyo'.
 
-## Getting Started
+## Desarrollo en Proceso para App
 
-This project is a starting point for a Flutter application.
+El proyecto debe permitir el apartar paquetes de coyotas a los clientes, para pasar por el producto en Sucursal "Villa de Seris" o Sucursal "Olivares".
 
-A few resources to get you started if this is your first Flutter project:
+> Fanpage de Coyotas "Doña Coyo":
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [fanpage Coyotas "Doña Coyo"](https://www.facebook.com/Coyotas-Do%C3%B1a-Coyo-Las-Famosas-coyotas-de-Villa-de-Seris-1385383021695510/)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> Publicación del instalable:
+
+- [prox](https://prox)
+

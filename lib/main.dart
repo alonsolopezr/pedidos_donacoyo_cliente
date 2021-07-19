@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:pedidos_donacoyo_cliente/pages/AwesomeCarouselPage.dart';
 
 import 'package:pedidos_donacoyo_cliente/pages/home.dart';
+import 'package:pedidos_donacoyo_cliente/pages/splash/splash_page.dart';
+import 'package:pedidos_donacoyo_cliente/routes.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,8 +19,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.brown,
       ),
-      //home: HomePage(title: 'Pedidos Doña Coyo'),
-      home: AwesomeCarousel(),
+      home: HomePage(title: 'Pedidos Doña Coyo'),
+      // home: AwesomeCarousel(),
+      // initialRoute: SplashPage.routeName,
+      // routes: routes,
     );
   }
 }

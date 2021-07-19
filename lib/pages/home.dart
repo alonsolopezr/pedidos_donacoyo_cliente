@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
+  static String routeName = "/home";
   HomePage({Key key, this.title}) : super(key: key);
 
   final String title;
@@ -10,8 +11,8 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage>
-    with SingleTickerProviderStateMixin {
+class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
+  // with SingleTickerProviderStateMixin {
   int _counter = 0;
 
   List pedido = [];
